@@ -13,6 +13,11 @@ header {
     text-align: center;
 }
 
+#ingredientes {
+    text-align: center;
+    padding: 20px;
+}
+
 nav ul {
     list-style: none;
     padding: 0;
@@ -39,15 +44,18 @@ main {
 }
 
 h1, h2 {
-    color: #5a3e2b;
+    color: #e0dedc;
 }
 
 img {
     display: block;
-    margin: 20px auto;
+    margin: 0 auto;
     border-radius: 10px;
-    width: 80%; 
-    max-width: 400px; 
+    width: 100%; 
+    max-width: 500px; 
+    height: auto;
+    max-height: 300px;
+    object-fit: cover;
 }
 
 footer {
